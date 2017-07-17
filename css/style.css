@@ -450,9 +450,14 @@ figcaption {
   opacity: 0.2;
 }
 
-/*.imghvr-fold-up {
-opacity: 0.5;
- }*/
+.over {
+  opacity: 0.9;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+.over:hover {
+  opacity: 1;
+}
 
 /***********************************
 Price Table
