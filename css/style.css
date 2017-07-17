@@ -1,10 +1,3 @@
-/*
-    Theme Name: Mentor
-    Theme URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
-
 body {
 	font-size: 15px;
     line-height: 1.52;
@@ -242,6 +235,12 @@ Banner
 /***********************************
 Features
 ************************************/
+.marged {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
 h2{
 	font-size: 24px;
 	padding-bottom: 15px;
@@ -465,6 +464,7 @@ Price Table
 .price-table {
     box-shadow: 0px 0px 1px 0px RGBA(0, 0, 0, 0.4);
     position: relative;
+    opacity: 0.8;
 }
 .price-table .pricing-head {
     background: #fff;
@@ -504,7 +504,7 @@ Price Table
 }
 
 .price-table:hover {
-opacity: 0.8;
+opacity: 1;
 }
 /***********************************
 Contact Us
@@ -697,6 +697,9 @@ Footer
 .footer .form-control:focus{
     box-shadow: none;
 }
+/*.header-section {
+      margin-top: : 100ppx;
+}*/
 /***********************************
 ************************************
 Responsive media queries
